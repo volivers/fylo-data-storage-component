@@ -166,9 +166,13 @@ p {
     text-align: center;
     color: hsl(243, 100%, 93%);
     padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 40vw;
 }
+
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(228, 55%, 62%);
 }
 
 /* Mobile version */
@@ -214,5 +218,9 @@ p {
         background-image: url('./images/bg-mobile.png');
         height: 100%;
         top: 0;
+    }
+
+    .attribution {
+        left: 15vw;
     }
 }
